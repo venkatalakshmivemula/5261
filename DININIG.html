@@ -1,0 +1,36 @@
+
+<html>
+    <head>
+        <style>
+            h3{text-align:center;}
+        </style>
+        <h3>Dine booking</h3>
+    </head><br><br>
+    <body>
+        <label>Visitor name:</label>
+        <input type="text"pattern="[a-z A-Z]"/><br><br>
+        <label>number of members</label>
+        <input type="number"pattern="[0-9]"maxlength="2"minlength="1"/><br><br>
+        <label>contact number</label>
+        <input type="text"/><br><br>
+        <label>e-mail</label>
+        <input type="text"/><br><br>
+        <label>type of food</label>
+        <input type="checkbox"id="select"name="select"value="select"/><br><br>
+        <label for="southindian">south indian</label>
+        <input type="checkbox"id="select"name="select"value="select"/><br><br>
+        <label for="northindian">north indian</label>
+        <input type="checkbox"id="select"name="select"value="select"/><br><br>
+        <label for="chinese">chinese</label> 
+        <input type="checkbox"id="select"name="select"value="select"/><br><br>
+        <label for="western">western</label> 
+        <input type="checkbox"id="select"name="select"value="select"/><br><br>
+        <label>room status:</label>
+        <select name="select" id="select">
+          <option value="AC"/option>
+          <option value="NON-AC"/option>
+        </select><br><br>
+        <input type="button" value="submit"/>
+        <input type="reset" value="reset"/>
+    </body>    
+</html>
